@@ -27,3 +27,5 @@ Actions:
         - Run: echo "Hello, World!"
     Compute:
       Type: EC2
+    Environment:
+      Name: VPCenvironment
