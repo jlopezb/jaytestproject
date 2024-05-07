@@ -2,7 +2,10 @@ Name: Workflow_2922
 SchemaVersion: "1.0"
 
 # Optional - Set automatic triggers.
-Triggers: []
+Triggers:
+  - Type: PULLREQUEST
+    Events:
+      - OPEN
 
 # Required - Define action configurations.
 Actions:
