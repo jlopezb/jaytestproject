@@ -2,7 +2,12 @@ Name: Workflow_2922
 SchemaVersion: "1.0"
 
 # Optional - Set automatic triggers.
-Triggers: []
+Triggers:
+  - Type: PULLREQUEST
+    Events:
+      - OPEN
+    Branches:
+      - master
 
 # Required - Define action configurations.
 Actions:
@@ -25,5 +30,6 @@ Actions:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
         - Run: echo "Hello, World!"
+        - Run: echo "Second Line!"
     Compute:
       Type: EC2
