@@ -28,5 +28,6 @@ Actions:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
         - Run: echo "Hello, World!"
+        - Run: echo "Second Line!"
     Compute:
       Type: EC2
