@@ -6,6 +6,8 @@ Triggers:
   - Type: PULLREQUEST
     Events:
       - OPEN
+    Branches:
+      - master
 
 # Required - Define action configurations.
 Actions:
