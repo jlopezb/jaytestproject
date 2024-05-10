@@ -31,6 +31,5 @@ Actions:
       Steps:
         - Run: echo "Hello, World!"
         - Run: echo "Second Line!"
-        - Run: test234
     Compute:
       Type: EC2
