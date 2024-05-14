@@ -31,6 +31,6 @@ Actions:
       Steps:
         - Run: echo "Hello, World!"
         - Run: echo "Second Line!"
-        - Run: test234
+        - Run: blahblahblah
     Compute:
       Type: EC2
